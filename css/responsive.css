@@ -1,0 +1,94 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+}
+
+@media only screen and (max-width: 767.98px) {
+    .product-items .item:nth-child(6n) {
+        border-right: inherit;
+    }
+    .p@media only screen and (max-width: 480px) {
+    .carousel img{
+        height: 114px;
+        width: auto !important;
+    }
+}
+    .product-items .item:nth-child(4n) {
+        border-right: 1px solid #e1e1e1;
+    }
+    .header-right a{
+        margin-left: 20px;
+    }
+    .menu-container .dropdown a {
+        margin-left: 31px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .carousel img{
+        height: 114px;
+        width: auto !important;
+    }
+    .site-logo img{
+        width: 100px;
+    }
+    .site-logo{
+        background-size: 28px auto;
+        right: 21px;
+    }
+    .thumbnail img{
+        width: 115px;
+    }
+    .product-items{
+        margin-left: 0px;
+    }
+    .item {
+        border-right: none;
+        margin-bottom: 50px;
+    }
+    .footer-info {
+        padding-left: 15px;
+        margin-top: 35px;
+    }
+    ul.footer-menu-list li {
+        display: list-item;
+    }
+    ul.footer-menu-list {
+        list-style-type: none;
+    }
+
+
+    ul.footer-menu-list li a {
+             margin-right: 0px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (max-width: 991.98px) {
+    .product-items .item:nth-child(6n) {
+        border-right: inherit;
+    }
+    .product-items .item:nth-child(4n) {
+        border-right: 1px solid #e1e1e1;
+    }
+
+    .header-right a{
+        margin-left: 20px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .product-items .item:nth-child(6n) {
+        border-right: inherit;
+    }
+    .product-items .item:nth-child(4n) {
+        border-right: 1px solid #e1e1e1;
+    }
+}
